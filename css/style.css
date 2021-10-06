@@ -1,0 +1,503 @@
+@import url("https://fonts.googleapis.com/css?family=Bebas+Neue:regular&display=swap&subset=cyrillic-ext");
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic&display=swap&subset=cyrillic-ext");
+
+/* 
+&display=swap
+&subset=cyrillic-ext 
+*/
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+	font-family: "Bebas Neue";
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	padding: 0px 20px;
+}
+/* ------------------------------ */
+
+h1 {
+	background-color: #ffa400;
+	margin: 0px 0px 40px 0px;
+	color: #29497f;
+	font-weight: 700;
+	font-size: 50px;
+	border: 1px solid #ffa400;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 20px 0px 20px 0px;
+}
+
+.title {
+	text-align: left;
+	font-size: 20px;
+	color: #29497f;
+	margin: 0px 0px 20px 0px;
+}
+
+.title1 {
+	text-align: left;
+	font-size: 20px;
+	color: #29497f;
+	margin: 0px 0px 160px 0px;
+}
+
+.bg {
+	text-align: center;
+	margin: 0px 0px 40px 0px;
+}
+
+.bg-c-1 {
+	background-color: #a66400;
+	display: inline-block;
+	color: #130873;
+	width: 300px;
+	height: 150px;
+}
+.bg-c-2 {
+	background-color: #ff5900;
+	display: inline-block;
+	color: #130873;
+	width: 300px;
+	height: 150px;
+}
+
+.bg-c-3 {
+	background-color: #ff8240;
+	display: inline-block;
+	color: #130873;
+	width: 300px;
+	height: 150px;
+}
+
+.bg-c-4 {
+	background-color: #ffa473;
+	display: inline-block;
+	color: #130873;
+	width: 300px;
+	height: 150px;
+}
+
+.bg-i-1 {
+	background-image: url("../img/2_1.jpg");
+	display: inline-block;
+	width: 250px;
+	height: 250px;
+}
+
+.bg-i-2 {
+	background-image: url("../img/2-2.jpg");
+	display: inline-block;
+	width: 250px;
+	height: 250px;
+}
+
+.bg-i-3 {
+	background-image: url("../img/2-3.jpg");
+	display: inline-block;
+	width: 250px;
+	height: 250px;
+}
+
+.bg-i-4 {
+	background-image: url("../img/2-4.jpg");
+	display: inline-block;
+	width: 250px;
+	height: 250px;
+}
+
+.bg-r-1 {
+	background-repeat: repeat;
+	margin: 0px 0px 30px 0px;
+	padding: 30px;
+	background-color: black;
+	height: 400px;
+	background-image: url(../img/lego.png);
+}
+
+.bg-r-2 {
+	background-repeat: no-repeat;
+	margin: 0px 0px 30px 0px;
+	padding: 30px;
+	background-color: black;
+	height: 400px;
+	background-image: url(../img/adidas.jpg);
+}
+
+.bg-p-1 {
+	background: url("../img/vw.png") 0 0 no-repeat;
+	display: inline-block;
+	width: 400px;
+	height: 400px;
+	margin: 0px 20px 20px 0px;
+	font-size: 30px;
+	vertical-align: top;
+	color: black;
+	padding: 30px;
+	border: 1px solid black;
+}
+
+.bg-p-2 {
+	background: url("../img/vw.png") top right no-repeat;
+	display: inline-block;
+	width: 400px;
+	height: 400px;
+	margin: 0px 20px 20px 0px;
+	font-size: 30px;
+	vertical-align: top;
+	color: black;
+	padding: 30px;
+	border: 1px solid black;
+}
+
+.bg-p-3 {
+	background: url("../img/vw.png") center right no-repeat;
+	display: inline-block;
+	width: 400px;
+	height: 400px;
+	margin: 0px 20px 20px 0px;
+	font-size: 30px;
+	vertical-align: top;
+	color: black;
+	padding: 30px;
+	border: 1px solid black;
+}
+
+.bg-p-4 {
+	background: url("../img/vw.png") center bottom no-repeat;
+	display: inline-block;
+	width: 400px;
+	height: 400px;
+	margin: 0px 20px 20px 0px;
+	font-size: 30px;
+	vertical-align: top;
+	color: black;
+	padding: 30px;
+	border: 1px solid black;
+}
+
+.bg-p-5 {
+	background: url("../img/vw.png") left bottom no-repeat;
+	display: inline-block;
+	width: 400px;
+	height: 400px;
+	margin: 0px 20px 20px 0px;
+	font-size: 30px;
+	vertical-align: top;
+	color: black;
+	padding: 30px;
+	border: 1px solid black;
+}
+
+.bg-p-6 {
+	background: url("../img/vw.png") center center no-repeat;
+	display: inline-block;
+	width: 400px;
+	height: 400px;
+	margin: 0px 20px 20px 0px;
+	font-size: 30px;
+	vertical-align: top;
+	color: black;
+	padding: 30px;
+	border: 1px solid black;
+}
+
+.bg-s-1 {
+	background: url("../img/forest.jpg") 100% / cover no-repeat;
+	width: 500px;
+	height: 500px;
+	display: inline-block;
+	background-color: darkgray;
+	margin: 0px 20px 20px 0px;
+	font-size: 28px;
+	vertical-align: top;
+	color: #fff;
+	padding: 30px;
+}
+
+.bg-s-2 {
+	background-size: auto auto;
+	width: 500px;
+	height: 500px;
+	display: inline-block;
+	background: url(../img/forest.jpg) 0 0 no-repeat;
+	background-color: darkgray;
+	margin: 0px 10px 10px 0px;
+	font-size: 28px;
+	vertical-align: top;
+	color: #fff;
+	padding: 30px;
+}
+
+.bg-a-1 {
+	width: 1200px;
+	height: 700px;
+	font-size: 40px;
+	font-weight: 900;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	padding-top: 140px;
+	min-height: 600px;
+	margin: 0px 50px 50px 0px;
+	background: rgba(0, 0, 0, 0.11) url(../img/pole.jpg) scroll no-repeat;
+}
+
+.bg-a-2 {
+	width: 1200px;
+	height: 700px;
+	font-size: 40px;
+	font-weight: 900;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	padding-top: 140px;
+	min-height: 600px;
+	margin: 0px 0px 50px 0px;
+	background: rgba(0, 0, 0, 0.11) url(../img/pole.jpg) fixed no-repeat;
+}
+
+ul li {
+	font-family: "Arial";
+	margin: 0px 0px 25px 0px;
+	min-height: 25px;
+	font-size: 15px;
+	padding: 6px 40px 0px 0px;
+	background: url("../img/duck.png") center right no-repeat;
+	max-width: 600px;
+	font-style: italic;
+	color: darkorange;
+}
+
+.contacts {
+	width: 300px;
+	padding: 15px;
+	margin: 0px 0px 40px 0px;
+	color: #4b4b4b;
+	border: 1px solid darkgray;
+}
+
+h3 {
+	font-family: Roboto;
+	margin: 0px 0px 25px 0px;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 22px;
+	letter-spacing: 0.15px;
+	color: #4b4b4b;
+}
+
+.info1 {
+	font-family: Roboto;
+	max-width: 200px;
+	background: url(../img/place.png) 0 0 no-repeat;
+	padding: 0px 0px 0px 30px;
+	margin: 0px 0px 15px 0px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 0.15px;
+	color: #4b4b4b;
+}
+
+.info2 {
+	font-family: Roboto;
+	background: url(../img/smartphone.png) 0 0 no-repeat;
+	padding: 0px 0px 0px 30px;
+	margin: 0px 0px 15px 0px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 0.15px;
+	color: #4b4b4b;
+}
+
+.info3 {
+	font-family: Roboto;
+	background: url(../img/email.png) 0 0 no-repeat;
+	padding: 0px 0px 0px 30px;
+	margin: 0px 0px 15px 0px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 0.15px;
+	color: #4b4b4b;
+}
+
+.info4 {
+	font-family: Roboto;
+	background: url(../img/timer.png) 0 0 no-repeat;
+	padding: 0px 0px 0px 30px;
+	margin: 0px 0px 15px 0px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 0.15px;
+	color: #4b4b4b;
+}
+
+.cap {
+	max-width: 100%;
+	padding: 221px 200px 312px 210px;
+	margin: 0px 0px 40px 0px;
+	background: url(../img/remont.png) 50% / cover no-repeat;
+}
+
+.subject {
+	max-width: 583px;
+	color: #fff;
+	font-family: Roboto;
+	font-size: 56px;
+	line-height: 56px;
+	font-weight: 900;
+	margin: 0 0 48px 0;
+}
+
+.subject-link {
+	display: inline-block;
+	color: #fff;
+	font-family: Roboto;
+	font-size: 12px;
+	line-height: 24px;
+	font-weight: 700;
+	background: #c40b0b url(../img/icon/Button.png) right no-repeat;
+	padding: 9px 50px 9px 30px;
+	text-transform: uppercase;
+}
+
+.impact {
+	background: #02133c url("../img/fon.png") center / cover no-repeat;
+	padding: 112px 210px 0px 210px;
+	border: 1px solid transparent;
+	margin: 0px 0px 200px 0px;
+}
+
+.impact-titles {
+	display: inline-block;
+	margin: 0px 65px 79px 0px;
+	overflow: visible;
+}
+
+.impact-subtitle {
+	font-family: Roboto;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 200%;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	color: #d5d5d5;
+	background: url("../img/Mark.png") 0 center no-repeat;
+	padding: 0px 0px 0px 30px;
+}
+
+.impact-title {
+	position: relative;
+	max-width: 411px;
+	font-family: Roboto;
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 117%;
+	color: #ffffff;
+}
+
+.impact-img {
+	display: inline-block;
+	margin: -100px 0px 0px 0px;
+	max-width: 498px;
+}
+
+.impact-img img {
+	margin: -300px 0px 0px 0px;
+	max-width: 100%;
+}
+
+.impact-box {
+	margin: 0px 0px 134px 0px;
+}
+
+.impact-text {
+	display: inline-block;
+	margin: 0px 24px 0px 0px;
+	min-height: 76px;
+	padding: 0px 0px 0px 90px;
+	vertical-align: middle;
+}
+
+.list {
+	font-family: Roboto;
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 117%;
+	color: #c40b0b;
+	display: block;
+}
+
+.desk {
+	font-family: Roboto;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	letter-spacing: 0.15px;
+	color: #f5f5f5;
+	max-width: 149px;
+	display: inline-block;
+}
+
+.line1 {
+	background: url("../img/car_oil.png") 0 center no-repeat;
+}
+
+.line2 {
+	background: url("../img/car_transmission.png") 0 center no-repeat;
+}
+
+.line3 {
+	background: url("../img/car_alignment.png") 0 center no-repeat;
+}
+
+.line4 {
+	background: url("../img/car_engine.png") 0 center no-repeat;
+}
